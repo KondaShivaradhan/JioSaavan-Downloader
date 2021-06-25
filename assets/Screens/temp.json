@@ -1,0 +1,1289 @@
+{
+    "id": "f94e6810-818e-4fc4-8764-8137385abba6",
+    "type": "player",
+    "children": [{
+            "id": "legend_16",
+            "type": "legend",
+            "metadata": {
+                "legend_name": "Fuse",
+                "icon": "https://trackercdn.com/cdn/apex.tracker.gg/legends/fuse-tile.png",
+                "bgimage": "https://trackercdn.com/cdn/apex.tracker.gg/legends/fuse-concept-bg-small.jpg",
+                "is_active": true
+            },
+            "stats": [{
+                "metadata": {
+                    "key": "Kills",
+                    "name": "Kills",
+                    "categoryKey": "combat",
+                    "categoryName": "Combat",
+                    "isReversed": false
+                },
+                "value": 100.0,
+                "percentile": 18.0,
+                "rank": 13770,
+                "displayValue": "100",
+                "displayRank": "13,770"
+            }]
+        },
+        {
+            "id": "legend_4",
+            "type": "legend",
+            "metadata": {
+                "legend_name": "Mirage",
+                "icon": "https://trackercdn.com/cdn/apex.tracker.gg/legends/mirage-tile.png",
+                "bgimage": "https://trackercdn.com/cdn/apex.tracker.gg/legends/mirage-concept-bg-small.jpg",
+                "is_active": false
+            },
+            "stats": [{
+                    "metadata": {
+                        "key": "Kills",
+                        "name": "Kills",
+                        "categoryKey": "combat",
+                        "categoryName": "Combat",
+                        "isReversed": false
+                    },
+                    "value": 31.0,
+                    "percentile": 71.0,
+                    "displayValue": "31",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Season7Kills",
+                        "name": "Season 7 Kills",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 9.0,
+                    "percentile": 76.0,
+                    "displayValue": "9",
+                    "displayRank": ""
+                }
+            ]
+        },
+        {
+            "id": "legend_9",
+            "type": "legend",
+            "metadata": {
+                "legend_name": "Octane",
+                "icon": "https://trackercdn.com/cdn/apex.tracker.gg/legends/octane-tile.png",
+                "bgimage": "https://trackercdn.com/cdn/apex.tracker.gg/legends/octane-concept-bg-small.jpg",
+                "is_active": false
+            },
+            "stats": [{
+                "metadata": {
+                    "key": "Kills",
+                    "name": "Kills",
+                    "categoryKey": "combat",
+                    "categoryName": "Combat",
+                    "isReversed": false
+                },
+                "value": 70.0,
+                "percentile": 66.0,
+                "displayValue": "70",
+                "displayRank": ""
+            }]
+        },
+        {
+            "id": "legend_5",
+            "type": "legend",
+            "metadata": {
+                "legend_name": "Bloodhound",
+                "icon": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bloodhound-tile.png",
+                "bgimage": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bloodhound-concept-bg-small.jpg",
+                "is_active": false
+            },
+            "stats": [{
+                    "metadata": {
+                        "key": "Kills",
+                        "name": "Kills",
+                        "categoryKey": "combat",
+                        "categoryName": "Combat",
+                        "isReversed": false
+                    },
+                    "value": 592.0,
+                    "percentile": 7.0,
+                    "displayValue": "592",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Damage",
+                        "name": "Damage",
+                        "categoryKey": "combat",
+                        "categoryName": "Combat",
+                        "isReversed": false
+                    },
+                    "value": 226747.0,
+                    "percentile": 17.0,
+                    "rank": 37742,
+                    "displayValue": "226,747",
+                    "displayRank": "37,742"
+                },
+                {
+                    "metadata": {
+                        "key": "Revives",
+                        "name": "Revives",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 124.0,
+                    "percentile": 8.0,
+                    "displayValue": "124",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "SmgKills",
+                        "name": "SMG Kills",
+                        "categoryKey": "weapons",
+                        "categoryName": "Weapons",
+                        "isReversed": false
+                    },
+                    "value": 118.0,
+                    "percentile": 8.0,
+                    "displayValue": "118",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "ArKills",
+                        "name": "AR Kills",
+                        "categoryKey": "weapons",
+                        "categoryName": "Weapons",
+                        "isReversed": false
+                    },
+                    "value": 193.0,
+                    "percentile": 7.0,
+                    "displayValue": "193",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "LmgKills",
+                        "name": "LMG Kills",
+                        "categoryKey": "weapons",
+                        "categoryName": "Weapons",
+                        "isReversed": false
+                    },
+                    "value": 39.0,
+                    "percentile": 14.0,
+                    "displayValue": "39",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "SniperKills",
+                        "name": "Sniper Kills",
+                        "categoryKey": "weapons",
+                        "categoryName": "Weapons",
+                        "isReversed": false
+                    },
+                    "value": 10.0,
+                    "percentile": 34.0,
+                    "displayValue": "10",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Specific1",
+                        "name": "Legend Specific 1",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 105.0,
+                    "percentile": 14.0,
+                    "displayValue": "105",
+                    "displayRank": ""
+                }
+            ]
+        },
+        {
+            "id": "legend_12",
+            "type": "legend",
+            "metadata": {
+                "legend_name": "Revenant",
+                "icon": "https://trackercdn.com/cdn/apex.tracker.gg/legends/revenant-tile.png",
+                "bgimage": "https://trackercdn.com/cdn/apex.tracker.gg/legends/revenant-concept-bg-small.jpg",
+                "is_active": false
+            },
+            "stats": [{
+                    "metadata": {
+                        "key": "Kills",
+                        "name": "Kills",
+                        "categoryKey": "combat",
+                        "categoryName": "Combat",
+                        "isReversed": false
+                    },
+                    "value": 1021.0,
+                    "percentile": 1.3,
+                    "rank": 4283,
+                    "displayValue": "1,021",
+                    "displayRank": "4,283"
+                },
+                {
+                    "metadata": {
+                        "key": "KillsPerMatch",
+                        "name": "Kills Per Match",
+                        "categoryKey": "combat",
+                        "categoryName": "Combat",
+                        "isReversed": false
+                    },
+                    "value": 1.08,
+                    "percentile": 33.0,
+                    "displayValue": "1.08",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Damage",
+                        "name": "Damage",
+                        "categoryKey": "combat",
+                        "categoryName": "Combat",
+                        "isReversed": false
+                    },
+                    "value": 370396.0,
+                    "percentile": 6.0,
+                    "rank": 2150,
+                    "displayValue": "370,396",
+                    "displayRank": "2,150"
+                },
+                {
+                    "metadata": {
+                        "key": "MatchesPlayed",
+                        "name": "Matches Played",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 947.0,
+                    "percentile": 2.6,
+                    "displayValue": "947",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Finishers",
+                        "name": "Finishers",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 54.0,
+                    "percentile": 12.0,
+                    "displayValue": "54",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Revives",
+                        "name": "Revives",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 189.0,
+                    "percentile": 3.0,
+                    "displayValue": "189",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "WinsWithFullSquad",
+                        "name": "Full Squad Wins",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 42.0,
+                    "percentile": 3.9,
+                    "displayValue": "42",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Specific1",
+                        "name": "Legend Specific 1",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 1902.0,
+                    "percentile": 2.5,
+                    "displayValue": "1,902",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Season5Kills",
+                        "name": "Season 5 Kills",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 215.0,
+                    "percentile": 13.0,
+                    "displayValue": "215",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Season6Kills",
+                        "name": "Season 6 Kills",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 263.0,
+                    "percentile": 8.0,
+                    "displayValue": "263",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Season7Kills",
+                        "name": "Season 7 Kills",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 236.0,
+                    "percentile": 7.0,
+                    "displayValue": "236",
+                    "displayRank": ""
+                }
+            ]
+        },
+        {
+            "id": "legend_15",
+            "type": "legend",
+            "metadata": {
+                "legend_name": "Horizon",
+                "icon": "https://trackercdn.com/cdn/apex.tracker.gg/legends/horizon-tile.png",
+                "bgimage": "https://trackercdn.com/cdn/apex.tracker.gg/legends/horizon-concept-bg-small.jpg",
+                "is_active": false
+            },
+            "stats": [{
+                    "metadata": {
+                        "key": "Kills",
+                        "name": "Kills",
+                        "categoryKey": "combat",
+                        "categoryName": "Combat",
+                        "isReversed": false
+                    },
+                    "value": 46.0,
+                    "percentile": 57.0,
+                    "displayValue": "46",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Season7Kills",
+                        "name": "Season 7 Kills",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 25.0,
+                    "percentile": 76.0,
+                    "displayValue": "25",
+                    "displayRank": ""
+                }
+            ]
+        },
+        {
+            "id": "legend_6",
+            "type": "legend",
+            "metadata": {
+                "legend_name": "Gibraltar",
+                "icon": "https://trackercdn.com/cdn/apex.tracker.gg/legends/gibraltar-tile.png",
+                "bgimage": "https://trackercdn.com/cdn/apex.tracker.gg/legends/gibraltar-concept-bg-small.jpg",
+                "is_active": false
+            },
+            "stats": [{
+                    "metadata": {
+                        "key": "Kills",
+                        "name": "Kills",
+                        "categoryKey": "combat",
+                        "categoryName": "Combat",
+                        "isReversed": false
+                    },
+                    "value": 73.0,
+                    "percentile": 35.0,
+                    "displayValue": "73",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Specific3",
+                        "name": "Legend Specific 3",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 5214.0,
+                    "percentile": 68.0,
+                    "displayValue": "5,214",
+                    "displayRank": ""
+                }
+            ]
+        },
+        {
+            "id": "legend_7",
+            "type": "legend",
+            "metadata": {
+                "legend_name": "Lifeline",
+                "icon": "https://trackercdn.com/cdn/apex.tracker.gg/legends/lifeline-tile.png",
+                "bgimage": "https://trackercdn.com/cdn/apex.tracker.gg/legends/lifeline-concept-bg-small.jpg",
+                "is_active": false
+            },
+            "stats": [{
+                    "metadata": {
+                        "key": "Kills",
+                        "name": "Kills",
+                        "categoryKey": "combat",
+                        "categoryName": "Combat",
+                        "isReversed": false
+                    },
+                    "value": 206.0,
+                    "percentile": 25.0,
+                    "displayValue": "206",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Finishers",
+                        "name": "Finishers",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 14.0,
+                    "percentile": 37.0,
+                    "displayValue": "14",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Specific3",
+                        "name": "Legend Specific 3",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 13276.0,
+                    "percentile": 49.0,
+                    "displayValue": "13,276",
+                    "displayRank": ""
+                }
+            ]
+        },
+        {
+            "id": "legend_2",
+            "type": "legend",
+            "metadata": {
+                "legend_name": "Bangalore",
+                "icon": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bangalore-tile.png",
+                "bgimage": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bangalore-concept-bg-small.jpg",
+                "is_active": false
+            },
+            "stats": [{
+                    "metadata": {
+                        "key": "Kills",
+                        "name": "Kills",
+                        "categoryKey": "combat",
+                        "categoryName": "Combat",
+                        "isReversed": false
+                    },
+                    "value": 57.0,
+                    "percentile": 50.0,
+                    "displayValue": "57",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Specific1",
+                        "name": "Legend Specific 1",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 2567.0,
+                    "percentile": 69.0,
+                    "displayValue": "2,567",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Specific3",
+                        "name": "Legend Specific 3",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 5703.0,
+                    "percentile": 79.0,
+                    "displayValue": "5,703",
+                    "displayRank": ""
+                }
+            ]
+        },
+        {
+            "id": "legend_10",
+            "type": "legend",
+            "metadata": {
+                "legend_name": "Wattson",
+                "icon": "https://trackercdn.com/cdn/apex.tracker.gg/legends/wattson-tile.png",
+                "bgimage": "https://trackercdn.com/cdn/apex.tracker.gg/legends/wattson-concept-bg-small.jpg",
+                "is_active": false
+            },
+            "stats": [{
+                    "metadata": {
+                        "key": "Kills",
+                        "name": "Kills",
+                        "categoryKey": "combat",
+                        "categoryName": "Combat",
+                        "isReversed": false
+                    },
+                    "value": 291.0,
+                    "percentile": 17.0,
+                    "displayValue": "291",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "MatchesPlayed",
+                        "name": "Matches Played",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 345.0,
+                    "percentile": 19.0,
+                    "displayValue": "345",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "TimesPlacedtop3",
+                        "name": "Times Top 3",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 51.0,
+                    "percentile": 23.0,
+                    "displayValue": "51",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Season5Wins",
+                        "name": "Season 5 Wins",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 2.0,
+                    "percentile": 62.0,
+                    "displayValue": "2",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Season5Kills",
+                        "name": "Season 5 Kills",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 17.0,
+                    "percentile": 68.0,
+                    "displayValue": "17",
+                    "displayRank": ""
+                }
+            ]
+        },
+        {
+            "id": "legend_3",
+            "type": "legend",
+            "metadata": {
+                "legend_name": "Caustic",
+                "icon": "https://trackercdn.com/cdn/apex.tracker.gg/legends/caustic-tile.png",
+                "bgimage": "https://trackercdn.com/cdn/apex.tracker.gg/legends/caustic-concept-bg-small.jpg",
+                "is_active": false
+            },
+            "stats": [{
+                    "metadata": {
+                        "key": "Kills",
+                        "name": "Kills",
+                        "categoryKey": "combat",
+                        "categoryName": "Combat",
+                        "isReversed": false
+                    },
+                    "value": 933.0,
+                    "percentile": 6.0,
+                    "rank": 26008,
+                    "displayValue": "933",
+                    "displayRank": "26,008"
+                },
+                {
+                    "metadata": {
+                        "key": "WinningKills",
+                        "name": "Winning Kills",
+                        "categoryKey": "combat",
+                        "categoryName": "Combat",
+                        "isReversed": false
+                    },
+                    "value": 20.0,
+                    "percentile": 6.0,
+                    "displayValue": "20.00",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Damage",
+                        "name": "Damage",
+                        "categoryKey": "combat",
+                        "categoryName": "Combat",
+                        "isReversed": false
+                    },
+                    "value": 377747.0,
+                    "percentile": 11.0,
+                    "rank": 8027,
+                    "displayValue": "377,747",
+                    "displayRank": "8,027"
+                },
+                {
+                    "metadata": {
+                        "key": "WinsWithFullSquad",
+                        "name": "Full Squad Wins",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 46.0,
+                    "percentile": 9.0,
+                    "displayValue": "46",
+                    "displayRank": ""
+                }
+            ]
+        },
+        {
+            "id": "legend_14",
+            "type": "legend",
+            "metadata": {
+                "legend_name": "Rampart",
+                "icon": "https://trackercdn.com/cdn/apex.tracker.gg/legends/rampart-tile.png",
+                "bgimage": "https://trackercdn.com/cdn/apex.tracker.gg/legends/rampart-concept-bg-small.jpg",
+                "is_active": false
+            },
+            "stats": [{
+                    "metadata": {
+                        "key": "Kills",
+                        "name": "Kills",
+                        "categoryKey": "combat",
+                        "categoryName": "Combat",
+                        "isReversed": false
+                    },
+                    "value": 180.0,
+                    "percentile": 3.6,
+                    "rank": 11091,
+                    "displayValue": "180",
+                    "displayRank": "11,091"
+                },
+                {
+                    "metadata": {
+                        "key": "WinsWithFullSquad",
+                        "name": "Full Squad Wins",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 10.0,
+                    "percentile": 15.0,
+                    "displayValue": "10",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "SmgKills",
+                        "name": "SMG Kills",
+                        "categoryKey": "weapons",
+                        "categoryName": "Weapons",
+                        "isReversed": false
+                    },
+                    "value": 25.0,
+                    "percentile": 16.0,
+                    "displayValue": "25",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "ArKills",
+                        "name": "AR Kills",
+                        "categoryKey": "weapons",
+                        "categoryName": "Weapons",
+                        "isReversed": false
+                    },
+                    "value": 50.0,
+                    "percentile": 11.0,
+                    "displayValue": "50",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "CarePackageKills",
+                        "name": "Care Package Kills",
+                        "categoryKey": "weapons",
+                        "categoryName": "Weapons",
+                        "isReversed": false
+                    },
+                    "value": 3.0,
+                    "percentile": 14.0,
+                    "displayValue": "3",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Specific1",
+                        "name": "Legend Specific 1",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 7751.0,
+                    "percentile": 24.0,
+                    "displayValue": "7,751",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Specific2",
+                        "name": "Legend Specific 2",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 76740.0,
+                    "percentile": 23.0,
+                    "displayValue": "76,740",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Specific3",
+                        "name": "Legend Specific 3",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 7801.0,
+                    "percentile": 24.0,
+                    "displayValue": "7,801",
+                    "displayRank": ""
+                }
+            ]
+        },
+        {
+            "id": "legend_11",
+            "type": "legend",
+            "metadata": {
+                "legend_name": "Crypto",
+                "icon": "https://trackercdn.com/cdn/apex.tracker.gg/legends/crypto-tile.png",
+                "bgimage": "https://trackercdn.com/cdn/apex.tracker.gg/legends/crypto-concept-bg-small.jpg",
+                "is_active": false
+            },
+            "stats": [{
+                    "metadata": {
+                        "key": "Kills",
+                        "name": "Kills",
+                        "categoryKey": "combat",
+                        "categoryName": "Combat",
+                        "isReversed": false
+                    },
+                    "value": 95.0,
+                    "percentile": 28.0,
+                    "displayValue": "95",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Specific2",
+                        "name": "Legend Specific 2",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 5647.0,
+                    "percentile": 54.0,
+                    "displayValue": "5,647",
+                    "displayRank": ""
+                }
+            ]
+        },
+        {
+            "id": "legend_1",
+            "type": "legend",
+            "metadata": {
+                "legend_name": "Wraith",
+                "icon": "https://trackercdn.com/cdn/apex.tracker.gg/legends/wraith-tile.png",
+                "bgimage": "https://trackercdn.com/cdn/apex.tracker.gg/legends/wraith-concept-bg-small.jpg",
+                "is_active": false
+            },
+            "stats": [{
+                    "metadata": {
+                        "key": "Kills",
+                        "name": "Kills",
+                        "categoryKey": "combat",
+                        "categoryName": "Combat",
+                        "isReversed": false
+                    },
+                    "value": 137.0,
+                    "percentile": 48.0,
+                    "displayValue": "137",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Headshots",
+                        "name": "Headshots",
+                        "categoryKey": "combat",
+                        "categoryName": "Combat",
+                        "isReversed": false
+                    },
+                    "value": 248.0,
+                    "percentile": 82.0,
+                    "displayValue": "248",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "LmgKills",
+                        "name": "LMG Kills",
+                        "categoryKey": "weapons",
+                        "categoryName": "Weapons",
+                        "isReversed": false
+                    },
+                    "value": 10.0,
+                    "percentile": 52.0,
+                    "displayValue": "10",
+                    "displayRank": ""
+                }
+            ]
+        },
+        {
+            "id": "legend_8",
+            "type": "legend",
+            "metadata": {
+                "legend_name": "Pathfinder",
+                "icon": "https://trackercdn.com/cdn/apex.tracker.gg/legends/pathfinder-tile.png",
+                "bgimage": "https://trackercdn.com/cdn/apex.tracker.gg/legends/pathfinder-concept-bg-small.jpg",
+                "is_active": false
+            },
+            "stats": [{
+                    "metadata": {
+                        "key": "Kills",
+                        "name": "Kills",
+                        "categoryKey": "combat",
+                        "categoryName": "Combat",
+                        "isReversed": false
+                    },
+                    "value": 232.0,
+                    "percentile": 31.0,
+                    "displayValue": "232",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "SmgKills",
+                        "name": "SMG Kills",
+                        "categoryKey": "weapons",
+                        "categoryName": "Weapons",
+                        "isReversed": false
+                    },
+                    "value": 51.0,
+                    "percentile": 35.0,
+                    "displayValue": "51",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Specific1",
+                        "name": "Legend Specific 1",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 176.0,
+                    "percentile": 43.0,
+                    "displayValue": "176",
+                    "displayRank": ""
+                }
+            ]
+        },
+        {
+            "id": "legend_13",
+            "type": "legend",
+            "metadata": {
+                "legend_name": "Loba",
+                "icon": "https://trackercdn.com/cdn/apex.tracker.gg/legends/loba-tile.png",
+                "bgimage": "https://trackercdn.com/cdn/apex.tracker.gg/legends/loba-concept-bg-small.jpg",
+                "is_active": false
+            },
+            "stats": [{
+                    "metadata": {
+                        "key": "Kills",
+                        "name": "Kills",
+                        "categoryKey": "combat",
+                        "categoryName": "Combat",
+                        "isReversed": false
+                    },
+                    "value": 317.0,
+                    "percentile": 6.0,
+                    "rank": 34705,
+                    "displayValue": "317",
+                    "displayRank": "34,705"
+                },
+                {
+                    "metadata": {
+                        "key": "WinningKills",
+                        "name": "Winning Kills",
+                        "categoryKey": "combat",
+                        "categoryName": "Combat",
+                        "isReversed": false
+                    },
+                    "value": 9.0,
+                    "percentile": 10.0,
+                    "displayValue": "9.00",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "TimesPlacedtop3",
+                        "name": "Times Top 3",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 47.0,
+                    "percentile": 17.0,
+                    "displayValue": "47",
+                    "displayRank": ""
+                },
+                {
+                    "metadata": {
+                        "key": "Season5Kills",
+                        "name": "Season 5 Kills",
+                        "categoryKey": "game",
+                        "categoryName": "Game",
+                        "isReversed": false
+                    },
+                    "value": 3.0,
+                    "percentile": 95.0,
+                    "displayValue": "3",
+                    "displayRank": ""
+                }
+            ]
+        }
+    ],
+    "metadata": {
+        "statsCategoryOrder": [
+            "combat",
+            "game",
+            "weapons"
+        ],
+        "platformId": 5,
+        "platformUserHandle": "BlazingBane",
+        "accountId": "f94e6810-818e-4fc4-8764-8137385abba6",
+        "cacheExpireDate": "5/24/2021 8:17:16 AM",
+        "level": 505,
+        "avatarUrl": "https://secure.download.dm.origin.com/production/avatar/prod/userAvatar/23303922/416x416.JPEG",
+        "countryCode": "IN",
+        "collections": 1026,
+        "activeLegend": 16,
+        "activeStats": [
+            "kills"
+        ],
+        "rankName": "Platinum 4",
+        "rankImage": "https://trackercdn.com/cdn/apex.tracker.gg/ranks/platinum4.png",
+        "wasUpdated": false
+    },
+    "stats": [{
+            "metadata": {
+                "key": "Level",
+                "name": "Level",
+                "categoryKey": "combat",
+                "categoryName": "Combat",
+                "isReversed": false
+            },
+            "value": 505.0,
+            "percentile": 8.0,
+            "displayValue": "505",
+            "displayRank": ""
+        },
+        {
+            "metadata": {
+                "key": "Kills",
+                "name": "Kills",
+                "categoryKey": "combat",
+                "categoryName": "Combat",
+                "isReversed": false
+            },
+            "value": 4381.0,
+            "percentile": 4.1,
+            "displayValue": "4,381",
+            "displayRank": ""
+        },
+        {
+            "metadata": {
+                "key": "KillsPerMatch",
+                "name": "Kills Per Match",
+                "categoryKey": "combat",
+                "categoryName": "Combat",
+                "isReversed": false
+            },
+            "value": 1.08,
+            "percentile": 47.0,
+            "displayValue": "1.08",
+            "displayRank": ""
+        },
+        {
+            "metadata": {
+                "key": "WinningKills",
+                "name": "Winning Kills",
+                "categoryKey": "combat",
+                "categoryName": "Combat",
+                "isReversed": false
+            },
+            "value": 29.0,
+            "percentile": 8.0,
+            "displayValue": "29.00",
+            "displayRank": ""
+        },
+        {
+            "metadata": {
+                "key": "Damage",
+                "name": "Damage",
+                "categoryKey": "combat",
+                "categoryName": "Combat",
+                "isReversed": false
+            },
+            "value": 974890.0,
+            "percentile": 11.0,
+            "displayValue": "974,890",
+            "displayRank": ""
+        },
+        {
+            "metadata": {
+                "key": "Headshots",
+                "name": "Headshots",
+                "categoryKey": "combat",
+                "categoryName": "Combat",
+                "isReversed": false
+            },
+            "value": 248.0,
+            "percentile": 66.0,
+            "displayValue": "248",
+            "displayRank": ""
+        },
+        {
+            "metadata": {
+                "key": "MatchesPlayed",
+                "name": "Matches Played",
+                "categoryKey": "game",
+                "categoryName": "Game",
+                "isReversed": false
+            },
+            "value": 1292.0,
+            "percentile": 9.0,
+            "displayValue": "1,292",
+            "displayRank": ""
+        },
+        {
+            "metadata": {
+                "key": "Finishers",
+                "name": "Finishers",
+                "categoryKey": "game",
+                "categoryName": "Game",
+                "isReversed": false
+            },
+            "value": 68.0,
+            "percentile": 13.0,
+            "displayValue": "68",
+            "displayRank": ""
+        },
+        {
+            "metadata": {
+                "key": "Revives",
+                "name": "Revives",
+                "categoryKey": "game",
+                "categoryName": "Game",
+                "isReversed": false
+            },
+            "value": 313.0,
+            "percentile": 11.0,
+            "displayValue": "313",
+            "displayRank": ""
+        },
+        {
+            "metadata": {
+                "key": "WinsWithFullSquad",
+                "name": "Full Squad Wins",
+                "categoryKey": "game",
+                "categoryName": "Game",
+                "isReversed": false
+            },
+            "value": 98.0,
+            "percentile": 8.0,
+            "displayValue": "98",
+            "displayRank": ""
+        },
+        {
+            "metadata": {
+                "key": "TimesPlacedtop3",
+                "name": "Times Top 3",
+                "categoryKey": "game",
+                "categoryName": "Game",
+                "isReversed": false
+            },
+            "value": 98.0,
+            "percentile": 17.0,
+            "displayValue": "98",
+            "displayRank": ""
+        },
+        {
+            "metadata": {
+                "key": "SmgKills",
+                "name": "SMG Kills",
+                "categoryKey": "weapons",
+                "categoryName": "Weapons",
+                "isReversed": false
+            },
+            "value": 194.0,
+            "percentile": 11.0,
+            "displayValue": "194",
+            "displayRank": ""
+        },
+        {
+            "metadata": {
+                "key": "ArKills",
+                "name": "AR Kills",
+                "categoryKey": "weapons",
+                "categoryName": "Weapons",
+                "isReversed": false
+            },
+            "value": 243.0,
+            "percentile": 10.0,
+            "displayValue": "243",
+            "displayRank": ""
+        },
+        {
+            "metadata": {
+                "key": "LmgKills",
+                "name": "LMG Kills",
+                "categoryKey": "weapons",
+                "categoryName": "Weapons",
+                "isReversed": false
+            },
+            "value": 49.0,
+            "percentile": 13.0,
+            "displayValue": "49",
+            "displayRank": ""
+        },
+        {
+            "metadata": {
+                "key": "SniperKills",
+                "name": "Sniper Kills",
+                "categoryKey": "weapons",
+                "categoryName": "Weapons",
+                "isReversed": false
+            },
+            "value": 10.0,
+            "percentile": 37.0,
+            "displayValue": "10",
+            "displayRank": ""
+        },
+        {
+            "metadata": {
+                "key": "CarePackageKills",
+                "name": "Care Package Kills",
+                "categoryKey": "weapons",
+                "categoryName": "Weapons",
+                "isReversed": false
+            },
+            "value": 3.0,
+            "percentile": 54.0,
+            "displayValue": "3",
+            "displayRank": ""
+        },
+        {
+            "metadata": {
+                "key": "RankScore",
+                "name": "Rank Score",
+                "categoryKey": "game",
+                "categoryName": "Game",
+                "isReversed": false
+            },
+            "value": 4888.0,
+            "percentile": 31.0,
+            "displayValue": "4,888",
+            "displayRank": ""
+        },
+        {
+            "metadata": {
+                "key": "Season5Wins",
+                "name": "Season 5 Wins",
+                "categoryKey": "game",
+                "categoryName": "Game",
+                "isReversed": false
+            },
+            "value": 2.0,
+            "percentile": 76.0,
+            "displayValue": "2",
+            "displayRank": ""
+        },
+        {
+            "metadata": {
+                "key": "Season5Kills",
+                "name": "Season 5 Kills",
+                "categoryKey": "game",
+                "categoryName": "Game",
+                "isReversed": false
+            },
+            "value": 235.0,
+            "percentile": 35.0,
+            "displayValue": "235",
+            "displayRank": ""
+        },
+        {
+            "metadata": {
+                "key": "Season6Kills",
+                "name": "Season 6 Kills",
+                "categoryKey": "game",
+                "categoryName": "Game",
+                "isReversed": false
+            },
+            "value": 263.0,
+            "percentile": 26.0,
+            "displayValue": "263",
+            "displayRank": ""
+        },
+        {
+            "metadata": {
+                "key": "Season7Kills",
+                "name": "Season 7 Kills",
+                "categoryKey": "game",
+                "categoryName": "Game",
+                "isReversed": false
+            },
+            "value": 270.0,
+            "percentile": 28.0,
+            "displayValue": "270",
+            "displayRank": ""
+        }
+    ]
+}
