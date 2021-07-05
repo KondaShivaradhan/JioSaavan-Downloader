@@ -92,7 +92,7 @@ export function DrawerContent(props) {
             )}
             label="Made by BlazingBane"
             onPress={() => {
-              Linking.openURL("http://kondashivaradhan.github.io");
+              Linking.openURL("http://kondashivaradhan.github.io/gamesite");
             }}
           ></DrawerItem>
         </Drawer.Section>
