@@ -10,6 +10,7 @@ import { startClock } from 'react-native-reanimated';
 import { PermissionsAndroid } from 'react-native';
 import Navi from './Navi';
 import RNRestart from 'react-native-restart';
+import LottieView from 'lottie-react-native';
 var RNFS = require('react-native-fs');
 
 export default function JioSavan() {
@@ -23,9 +24,9 @@ export default function JioSavan() {
     const [name, setName] = useState([]);
     const [url, setUrl] = useState([]);
     const [search, setSearch] = useState('');
+    const [shouldShow, setShouldShow] = useState(false);
     const android = RNFetchBlob.android
     function start() {
-        console.warn('Searching...')
         if (search.includes("playlist")) {
             console.log('Playlist');
             axios.get('https://apg-saavn-api.herokuapp.com/result/?q=' + search)
@@ -51,50 +52,48 @@ export default function JioSavan() {
                 })
             console.clear
         } else {
-            axios.get('https://apg-saavn-api.herokuapp.com/result/?q=' + search)
+            axios.get('https://saavn.me/search/songs?query=' + search +"&page=1&limit=20")
                 .then(res => {
-                    
-                    setMain(res.data)
+                    console.log(JSON.stringify(res.data.results));
+                    setMain(res.data.results)
                 }).catch((error) => {
+                    console.log(JSON.stringify(res.data.results));
                     alert('Incorrect Name')
                     setErr('Not Found')
                 })
             console.clear
         }
     }
-     function all() {
+    function all() {
         songs.forEach(element => {
-            console.log('came1');
             return new Promise((resolve, reject) => {
-                    console.log('came2');
-                 RNFetchBlob.fs.exists(RNFetchBlob.fs.dirs.DownloadDir + '/SavanD/' + element.song + '.m4a')
+                RNFetchBlob.fs.exists(RNFetchBlob.fs.dirs.DownloadDir + '/SavanD/' + element.title + '.m4a')
                     .then((exist) => {
-                    console.log('came3');
-                        console.log(`file ${exist ? '' : 'not'} exists`)
+                        // console.log('came3');
+                        // console.log(`file ${exist ? '' : 'not'} exists`)
                         exist ? console.warn('Already Exists') :
-                    
-                             RNFetchBlob
+
+                            RNFetchBlob
                                 .config({
                                     addAndroidDownloads: {
-                                        title: element.song,
+                                        title: element.name,
                                         useDownloadManager: true,
                                         notification: true,
-
                                         description: 'File downloaded by download manager.',
-                                        path: RNFetchBlob.fs.dirs.DownloadDir + '/SavanD/' + element.song + '.m4a'
+                                        path: RNFetchBlob.fs.dirs.DownloadDir + '/SavanD/' + element.name+ '.m4a'
                                     }
                                 })
-                                .fetch('GET', element.media_url)
+                                .fetch('GET', element.downloadUrl[element.downloadUrl.length-1].link)
                                 .then((resp) => {
                                     RNFetchBlob.android.actionViewIntent(resp.path(), '/')
                                 })
                                 .catch((error) => {
                                     console.log(error);
                                 })
-                           
+
                     })
                     .catch((error) => { console.log(error); })
-                
+
             }).catch((error) => {
                 console.log(error);
             })
@@ -107,7 +106,7 @@ export default function JioSavan() {
                 .then((exist) => {
                     console.log(`file ${exist ? '' : 'not'} exists`)
                     exist ? null :
-                         RNFetchBlob
+                        RNFetchBlob
                             .config({
                                 addAndroidDownloads: {
                                     title: name,
@@ -115,7 +114,7 @@ export default function JioSavan() {
                                     notification: true,
 
                                     description: 'File downloaded by download manager.',
-                                    path: RNFetchBlob.fs.dirs.DownloadDir + '/SavanD/' + name+ '.m4a'
+                                    path: RNFetchBlob.fs.dirs.DownloadDir + '/SavanD/' + name + '.m4a'
                                 }
                             })
                             .fetch('GET', url)
@@ -125,13 +124,12 @@ export default function JioSavan() {
                             .catch((error) => {
                             })
                 })
-                .catch(() => {  })
+                .catch(() => { })
 
         }).catch((error) => {
             console.log(error);
         })
     }
-
     return (
         <>
             <Navi></Navi>
@@ -143,9 +141,15 @@ export default function JioSavan() {
                         placeholderTextColor="#FFF"
                         onChangeText={e => setSearch(e)}
                     />
-                    <AppButton style={{}} handleSubmit={() => {
+                    <AppButton style={{}} onPress={() => setShouldShow(true)} handleSubmit={() => {
                         start()
                     }} />
+                    <View>
+                        {shouldShow ? (<Text>
+                            Searching Animation Here
+                        </Text>) : null}
+
+                    </View>
                     {data.length == 0 ?
                         null : (
                             <View style={styles.songContainer}>
@@ -172,7 +176,9 @@ export default function JioSavan() {
 
                             </View>)}
                     {songs.length == 0 ?
-                        null : (
+
+                        null
+                        : (
                             <View style={{ height: '90%' }}>
 
                                 <TouchableOpacity style={styles.b2}
@@ -187,43 +193,55 @@ export default function JioSavan() {
                                             <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
                                                 <Image
                                                     style={{ height: 40, width: 40, borderRadius: 10 }}
-                                                    source={{ uri: item.image }}
+                                                    source={{ uri: item.image[0].link }}
                                                 />
-                                                <Text
-                                                    style={{ width: 150, color: '#FFF', fontSize: 14, marginHorizontal: 30 }}>
-                                                    {item.song}
-                                                </Text>
+                                                <View style={{ flexDirection: 'column', justifyContent: 'space-around' }}>
+                                                    <Text
+                                                        style={{ width: 150, color: '#FFF', fontSize: 14, marginHorizontal: 30 }}>
+                                                        {item.name}
+                                                    </Text>
+                                                    <Text
+                                                        style={{ width: 150, color: '#FFF', fontSize: 14, marginHorizontal: 30 }}>
+                                                        {item.album.name}
+                                                    </Text>
+                                                    <Text
+                                                        style={{ width: 150, color: '#FFF', fontSize: 14, marginHorizontal: 30 }}>
+                                                        {item.language}
+                                                    </Text>
+                                                    {/* <Text
+                                                        style={{ width: 150, color: '#FFF', fontSize: 14, marginHorizontal: 30 }}>
+                                                        {item.downloadUrl[item.downloadUrl.length-1].link}
+                                                    </Text> */}
+                                                </View>
+
                                                 <View>
                                                     <TouchableOpacity style={styles.buttonF} onPress={() => {
 
                                                         return new Promise((resolve, reject) => {
 
-                                                            RNFetchBlob.fs.exists(RNFetchBlob.fs.dirs.DownloadDir + '/SavanD/' + item.song + '.m4a')
+                                                            RNFetchBlob.fs.exists(RNFetchBlob.fs.dirs.DownloadDir + '/SavanD/' + item.title + '.m4a')
                                                                 .then((exist) => {
                                                                     console.log(`file ${exist ? '' : 'not'} exists`)
                                                                     exist ? console.warn('Already exits') :
                                                                         RNFetchBlob
                                                                             .config({
                                                                                 addAndroidDownloads: {
-                                                                                    title: item.song,
+                                                                                    title: item.name,
                                                                                     useDownloadManager: true,
                                                                                     notification: true,
-
                                                                                     description: 'File downloaded by download manager.',
-                                                                                    path: RNFetchBlob.fs.dirs.DownloadDir + '/SavanD/' + item.song+ '.m4a'
+                                                                                    path: RNFetchBlob.fs.dirs.DownloadDir + '/SavanD/' + item.name + '.m4a'
                                                                                 }
                                                                             })
-                                                                            .fetch('GET', item.media_url)
+                                                                            .fetch('GET', item.downloadUrl[item.downloadUrl.length-1].link)
                                                                             .then((resp) => {
                                                                                 RNFetchBlob.android.actionViewIntent(resp.path(), '/')
                                                                             })
                                                                             .catch((error) => {
                                                                                 console.log(error);
                                                                             })
-
-
                                                                 })
-                                                                .catch(() => { console.log('Not Exits'); })
+                                                                .catch(() => { console.log('Not Exits error'); })
 
 
                                                         }).catch((error) => {
@@ -231,9 +249,10 @@ export default function JioSavan() {
                                                         })
 
                                                     }}>
-                                                        <View style={{ backgroundColor: "dodgerblue", borderRadius: 14, justifyContent: 'center', aalignItems: 'center' }} >
+                                                        <View style={{ backgroundColor: "dodgerblue", borderRadius: 14, marginTop:10, justifyContent: 'center', aalignItems: 'center' }} >
                                                             <Text style={{ color: "#FFF", textAlign: 'center', padding: 5 }} >Down</Text>
                                                         </View>
+                                                      
                                                     </TouchableOpacity>
                                                 </View>
                                             </View>
